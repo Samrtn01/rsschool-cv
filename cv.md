@@ -1,27 +1,40 @@
-#**Curriculum Vitae**#
+#Curriculum Vitae#
 ***
-###**Name/Surname**|Vitalij Lysenko###
+###Name/Surname###
+
+
+**Vitalij Lysenko**
 ***
-###**Contacts**###
+###Contacts###
+
+
+Source    | ID
+----------|:-------------------:
 *mob.*    | +375-29-103-18-77
 *email*   | lysenkovt@gmail.com
 *discord* | Samrtn01
 ***
-###**About myself**###
+###About myself###
+
+
 I'm single, 32 years old, very interested in programming (for real - earning a **HOLE LOT of MONEY!**)) Not as communicative, as i would prefer to be, but enough for good team work. 
 
 
 *With good sense of humor (or at least people say so))*
 ***
-###**Skills*:**###
-**Git*       - beginning
-**HTML*      - beginning
-**CSS*       - zero
-**JS*        - zero
-**MS office* - advanced user
+###Skills*:###
+
+
+* *Git*       - beginning
+* *HTML*      - beginning
+* *CSS*       - zero
+* *JS*        - zero
+* *MS office* - advanced user
+
+
 *<sub>included, but not limited</sub>
 ***
-###**Code example**###
+###Code example###
 ```
 <!DOCTYPE html>
 <html lang="ru">
@@ -37,14 +50,20 @@ I'm single, 32 years old, very interested in programming (for real - earning a *
 </html>
 ```
 ***
-###**Experience**###
+###Experience###
+
+
 Sales manager at ALC "ENECA" 
 ***
-###**Education**###
+###Education###
+
+
 **Belarussian National Technical University - Energy Engineer**
 ***
-###**Languages**###
-*Russin  - native
-*Polish  - A2
-*English - B1
+###Languages###
+
+
+* Russin  - native
+* Polish  - A2
+* English - B1
 ***
