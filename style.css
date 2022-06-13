@@ -1,3 +1,10 @@
+*{
+    padding: 0; 
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: "Teko";
     src: url("./assets/fonts/Teko-Regular.ttf");
@@ -11,17 +18,18 @@
 }
 
 body {
+    font-family: "WorkSans";
+    font-size: 17px;    
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .header {
-    border: 1px solid red
+    background-color: rgb(144, 142, 250);
 }
 
 html {
@@ -32,17 +40,72 @@ html {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
+    flex-wrap: nowrap;
   }
 
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: color 0.5s    
+}
+
+.nav-link:hover {
+    padding: 0 20px;
+    line-height: 30px;    
+    color: blueviolet;
+
+}
+
 .main {
-    border: 1px solid red
+    background-color: rgb(144, 142, 250);
+}
+
+.avatar {
+    border-radius: 60px;
+}
+
+.h1-text {
+    font-family: "Teko";
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.h2-text {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile p{
+    text-transform: uppercase;
 }
 
 .container {
+    padding: 35px 45px;
     max-width: 1440px;
     margin: 0 auto;
+    background-color: rgba(237, 245, 248, 0.2);
+    border: 1px solid rgb(0, 4, 255);
+    border-radius: 60px;
+    box-shadow: 10px 10px 30px rgba(68, 0, 255, 0.144);   
+}
+
+.textbold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.textitalic {
+    font-style: italic;
 }
 
 .footer {
-    border: 1px solid red
+    background-color: rgb(194, 178, 128);
+    text-align: left;    
+}
+
+.footer img {
+    text-align: right;
 }

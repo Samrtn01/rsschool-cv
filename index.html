@@ -10,8 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <div>
-            <H1 class="h1-text">Curriculum vitae</H1>
+        <div>            
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -26,77 +25,96 @@
         </div>
     </header>
     <main class="main">
-        <div>
-            <img src="./assets/img/document5253652349209018888_2836375646811763039(1).jpeg" alt="My photo">
-            <br>
-            <p>Vitalij Lysenko</p>
-        </div>
-        <div id="contacts" class="container">
-            <h2 class="h2-text">Contacts</h2>
-            <UL class="list">
-                <li class="list-item">mob. - +375-29-103-18-77</li>
-                <li class="list-item">email - lysenkovt@gmail.com</li>
-                <li class="list-item">discord - Samrtn01</li>                
-            </UL>
-        </div>
-        <div id="aboutmyself" class="container">
-            <h2 class="h2-text">About myself</h2>
-            <p>I'm single, 32 years old, very interested in programming (for real - earning a <span>HOLE LOT of MONEY!</span>)) Not as communicative, as i would prefer to be, but enough for good team work. 
-                <br> <span>With good sense of humor (or at least people say so))</span>
-            </p>
-        </div>
-        <div id="skills" class="container">
-            <h2 class="h2-text">Skills</h2>
-            <UL class="list">
-                <li class="list-item">Git       - beginning</li>
-                <li class="list-item">HTML      - beginning</li>
-                <li class="list-item">CSS       - ZERO</li>   
-                <li class="list-item">JS        - ZERO</li>
-                <li class="list-item">MS office - advanced user</li>             
-            </UL>
-        </div>
-        <div id="codeexample" class="container">
-            <h2 class="h2-text">Code example</h2>
-            <pre>
-                <code>
-                    <!DOCTYPE html>
-                        <html lang="ru">
-                             <head>
-                                <title>Test Task</title>
-                                <meta name="description" content="Task newbie">
-                                <meta name="keywords" content="Task, newbie">
-                                 <meta charset="UTF-8">
-                            </head>
-                            <body>
-                                <p>Task</p>
-                            </body>
-                        </html>
-                </code>
-            </pre>
-        </div>
-        <div id="experience" class="container">
-            <h2 class="h2-text">Experience</h2>
-            <p>Sales manager at ALC "ENECA"</p>
-        </div>
-        <div id="education" class="container">
-            <h2 class="h2-text">Education</h2>
-            <p>Belarussian National Technical University - Energy Engineer</p>
-        </div>       
-        <div id="languages" class="container">
-            <h2 class="h2-text">Languages</h2>
-            <UL class="list">
-                <li class="list-item">Russin - native</li>
-                <li class="list-item">Polish  - A2</li>
-                <li class="list-item">English - B1</li>                           
-            </UL>
-        </div>
+        <section class="profile">
+            <div class="container">
+                <img class="avatar" src="./assets/img/document5253652349209018888_2836375646811763039(1).jpeg" width="280" height="300" alt="My photo">
+                <H1 class="h1-text">Vitalij Lysenko</H1>
+                <p>junior front-end developer</p>
+            </div>
+        </section>
+        <section class="contacts">
+            <div id="contacts" class="container">
+                <h2 class="h2-text">Contacts</h2>
+                <UL class="list">
+                    <li class="list-item">mob.: +375-29-103-18-77</li>
+                    <li class="list-item">email: lysenkovt@gmail.com</li>
+                    <li class="list-item">discord: Samrtn01</li>                
+                </UL>
+            </div>
+        </section>
+        <section class="aboutmyself">
+            <div id="aboutmyself" class="container">
+                <h2 class="h2-text">About myself</h2>
+                <p>I'm single, 32 years old, very interested in programming (for real - earning a <span class="textbold">HOLE LOT of MONEY!)</span>) Not as communicative, as i would prefer to be, but enough for good team work. 
+                    <br> <span class="textitalic">With good sense of humor (or at least people say so))</span>
+                </p>
+            </div>
+        </section>
+        <section class="skills">
+            <div id="skills" class="container">
+                <h2 class="h2-text">Skills</h2>
+                <UL class="list">
+                    <li class="list-item">Git: beginning</li>
+                    <li class="list-item">HTML: beginning</li>
+                    <li class="list-item">CSS: ZERO</li>   
+                    <li class="list-item">JS: ZERO</li>
+                    <li class="list-item">MS office: advanced user</li>             
+                </UL>
+            </div>
+        </section>
+        <section class="codeexample">
+            <div id="codeexample" class="container">
+                <h2 class="h2-text">Code example</h2>
+                <pre>
+                    <code>                
+                            &lttable&gt
+                                &ltthead&gt
+                                    &lttr&gt
+                                        &ltth&gt#&lt/th&gt
+                                        &ltth&gtId&lt/th&gt
+                                    &lt/tr&gt
+                                &lt/thead&gt
+                                &lttbody&gt
+                                    &lttr&gt
+                                        &lttd&gt1&lt/td&gt
+                                        &lttd&gtRSschool&lt/td&gt
+                                    &lt/tr&gt
+                                &lt/tbody&gt
+                            &lt/table&gt
+                    </code>
+                </pre>
+            </div>
+        </section>
+        <section class="experience">
+            <div id="experience" class="container">
+                <h2 class="h2-text">Experience</h2>
+                <p>Sales manager at ALC "ENECA"</p>
+            </div>
+        </section>
+        <section class="education">
+            <div id="education" class="container">
+                <h2 class="h2-text">Education</h2>
+                <p>Belarussian National Technical University - Energy Engineer</p>
+            </div>
+        </section>
+        <section class="languages">       
+            <div id="languages" class="container">
+                <h2 class="h2-text">Languages</h2>
+                <UL class="list">
+                    <li class="list-item">Russin: native</li>
+                    <li class="list-item">Polish: A2</li>
+                    <li class="list-item">English: B1</li>                           
+                </UL>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div>
-            <a href="https://github.com/Samrtn01/rsschool-cv">github link</a>
-            <span>Made in 2022</span>
-            <a href="https://rs.school/js/">rsschool link</a>
-            <img src="./assets/img/rs_school_js.svg" alt="rsschool logo">
+            <a target="_blank" href="https://github.com/Samrtn01/rsschool-cv">Samrtn01</a>
+            <span>&copy 2022</span>
+            <a target="_blank" href="https://rs.school/js/">
+                <img src="./assets/img/rs_school_js.svg" width="50" height="50" alt="rsschool logo">
+            </a>            
         </div>
     </footer>
 </body>
